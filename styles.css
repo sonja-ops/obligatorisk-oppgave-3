@@ -1,5 +1,40 @@
 
 
+h1{
+    .ponomar-regular {
+        font-family: "Ponomar", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+
+h3{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+p{   
+    .roboto-mono-uniquifier {
+        font-family: "Roboto Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style:normal;
+      }
+      color: blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+
 .section{
     width: 100%;
     height: 100%;
@@ -8,6 +43,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .backgroundFeature{
     background-image: url();
     background-position: center;
@@ -15,7 +51,7 @@
 .trips{
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -31,8 +67,25 @@
     max-width: 300px;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+}
+
+.hoverButtons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.firstButton:hover{
+    background-color: blue;
+}
+
+.secondButton:hover{
+    scale: 3;
 }
 
 @media (max-width:426px) {
@@ -43,6 +96,12 @@
         flex-direction: column;
     }
 }
+
+
+
+
+
+
 
 
  
