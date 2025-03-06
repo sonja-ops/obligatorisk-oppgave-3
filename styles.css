@@ -14,14 +14,27 @@ ul{
     padding: 0;
     list-style-type: none;
 }
+.section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+}
 
 .backgroundFeature{
     background-image: url(bilder/bildet\ 8.jpg);
-    background-position: center;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
-    object-fit: cover;
 }
+
 
 .trips{
     width: 100%;
@@ -29,16 +42,24 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 img{
-   width:50%;
+    width: 400px;
+    height: 500px;
 }
 
 h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: blue;
+
+        font-family: "Roboto Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
 }
 
 .hoverButtons{
@@ -52,6 +73,7 @@ h2{
 
 .firstButton:hover{
     background-color: blue;
+    color: white
 }
 
 .secondButton:hover{
