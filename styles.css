@@ -93,11 +93,19 @@ h3{
     scale: 3;
 }
 
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
 @media (max-width:426px) {
     body {
         background-color: beige;
     }
-    .card {
+    .trips {
         flex-direction: column;
     }
 }
