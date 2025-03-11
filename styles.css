@@ -1,4 +1,4 @@
-
+/* header seksjon*/
 header{
     display: flex;
     justify-content: space-between;
@@ -15,11 +15,6 @@ ul{
     list-style-type: none;
 }
 
-footer{
-    background-color: gray;
-    display: flex;
-    justify-content: center;
-}
 .section{
     height: 100vh;
     display: flex;
@@ -92,22 +87,51 @@ h3{
 .secondButton:hover{
     scale: 3;
 }
-
-.icons{
+footer{
+    background-color: gray;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-
 }
 
+.icon{
+    width: 50px;
+    height: 50px;
+    gap: 20px;
+}
 @media (max-width:426px) {
     body {
         background-color: beige;
+        
+        
     }
     .trips {
         flex-direction: column;
+        height: 1200px;
+        margin-top: 20px;
+        border-style: solid;
     }
+
+    .backgroundFeature{
+        height: 200px;
+    }
+
+
+    .section{
+        height: 400px;
+    }
+
+    img{
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .trip-div{
+        height: 500px;
+    }
+
+   
 }
 
 
