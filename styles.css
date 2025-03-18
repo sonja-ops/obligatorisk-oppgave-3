@@ -26,7 +26,14 @@ ul{
         font-weight: 900;
         font-style: italic;
 }
+h1{
+    font-size: 50px;
+}
 
+p{
+    font-size: 40px;
+}
+    
 .backgroundFeature{
     background-image: url(bilder/bildet\ 8.jpg);
     background-position:center;
@@ -95,6 +102,7 @@ footer{
     gap: 20px;
 }
 .icons{
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
