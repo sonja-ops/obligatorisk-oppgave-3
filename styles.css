@@ -116,7 +116,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px;
+    gap: 50px;
 }
 .icon{
     width: 30px;
@@ -134,12 +134,12 @@ footer{
     font-weight: 400;
     font-style: normal;
 }
-@media (max-width:426px) {
+
+@media (max-width:769px) {
     body {
         background-color: beige;
-        
-        
     }
+
     .trips {
         flex-direction: column;
         height: 1200px;
@@ -167,20 +167,7 @@ footer{
 
     .icons{
         height: 20px;
-        gap: 20px;
+        gap: 10px;
         margin-top: 10px;
     }
 }
-
-
-
-
-
-
-  
-
-
- 
-      
-      
-  
